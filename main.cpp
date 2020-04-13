@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+// ./GenToneVal | aplay -r 44100
+
 const double R = 44100; // Sample rate
 const double F = R / 256; // bytebeat freq of 1*t due to 8-bit truncation
 const double V = 127; // Volume constant
